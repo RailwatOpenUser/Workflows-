@@ -16,5 +16,7 @@ CREDS :- Your secret repo having cars
 GitHubName:- Your GitHub UserName
 GitHubMail:- You GitHub Email Address
 ```
-My original github id is [Dark-super-me](github.com/Dark-super-me)
+My original github id is [Dark-super-me](https://github.com/Dark-super-me).
+
+
 `If u feel any error in this worlflows , u can fix it and feel free to give a pull request`
