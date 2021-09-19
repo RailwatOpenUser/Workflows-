@@ -26,7 +26,7 @@ jobs:
           echo "https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
       - name: Clone The Secret Mirror Repository
         run: |
-          git clone https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.MIRROR_REPOSLUG }}@${{ secrets.CREDS }} source
+          git clone https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com/RailwatOpenUser/Super-Video-Encoder@${{ secrets.CREDS }} 
       - name: Run Bot
         timeout-minutes: 700
         continue-on-error: true
